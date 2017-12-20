@@ -1,0 +1,26 @@
+## prd
+[prd]
+192.168.10.100
+
+[prd:vars]
+ansible_ssh_port=22
+ansible_ssh_user="remote_user"
+ansible_ssh_pass="password"
+
+## stg
+[stg]
+192.168.20.100
+
+[stg:vars]
+ansible_ssh_port=22
+ansible_ssh_user="remote_user"
+ansible_ssh_pass="password"
+
+## dev
+[dev]
+192.168.30.100
+
+[dev:vars]
+ansible_ssh_port=22
+ansible_ssh_user="remote_user"
+ansible_ssh_pass="password"

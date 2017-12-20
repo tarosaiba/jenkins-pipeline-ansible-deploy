@@ -1,0 +1,6 @@
+- hosts: '{{ host }}'
+  tasks:
+   - copy:
+       src: '{{ local_path }}'
+       dest: '{{ remote_path }}'
+       force: yes
